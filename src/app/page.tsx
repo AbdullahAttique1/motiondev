@@ -1,11 +1,12 @@
-import Screen from '@/components/screen';
-import Clerkboxslider from './Clerkboxslider';
+import Clerkauthcodebox from './Clerkauthcodebox';
 
 export default function Home() {
   return (
     <div className="grid min-h-screen items-center justify-items-center gap-16 bg-[#131316] p-8 pb-20 font-sans sm:p-20">
+      <Clerkauthcodebox />
       {/* <Screen /> */}
-      <Clerkboxslider />
+
+      {/* <Clerkboxslider /> */}
     </div>
   );
 }
